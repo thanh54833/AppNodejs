@@ -73,7 +73,45 @@ console.log("hello world ...")
 // }
 // Example : ...
 
-var list = ["mot", "hai", "ba"]
+// var list = ["mot", "hai", "ba"]
+// list.forEach(element => {
+//     console.log("element :..." + element)
+// });
+
+// for (variable in list) {
+//     console.log("element 1 :..." + variable)
+// }
+
+// var person = { name: "thanh", age: "25" }
+// var list = ["mot", "hai", "ba"]
+// for (variable of list) {
+//     console.log("variable :.. " + variable)
+// }
+
+// object :...
+
+
+var object_1 = { param_1: "param_1", param_2: "param_2", param_3: "param_3" }
+var object_2 = new Object()
+object_2.param_1 = "param_1_1"
+object_2.param_2 = "param_2_2"
+object_2.param_3 = "param_3_3"
+console.log(object_2)
+
+function Person(name,age){
+    this.name="name"
+    this.age="age"
+}
+var myPerson=Person("thanh","25")
+
+console.log("person :... "+myPerson.name)
+
+
+
+
+
+
+
 
 
 
